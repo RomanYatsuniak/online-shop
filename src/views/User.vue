@@ -1,12 +1,11 @@
 <template>
   <div>
-  Main
+
   </div>
 </template>
 
 <script>
-//top products(slider)
-//latest products(paginator)
+//Page for editing user personal data
 export default {
 
 }

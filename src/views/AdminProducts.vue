@@ -1,12 +1,13 @@
 <template>
   <div>
-  Main
+
   </div>
 </template>
 
 <script>
-//top products(slider)
-//latest products(paginator)
+//table of all products
+//opportunity to create product
+//opportunity to change info about product
 export default {
 
 }

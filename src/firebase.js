@@ -12,9 +12,15 @@ firebase.initializeApp(firebaseConfig)
 
 const db = firebase.firestore()
 const auth = firebase.auth()
-
+const storage = firebase.storage()
+const files = firebase.storage()
+const getDocumentRef = (doc, ref) => {
+    return db.collection(`${ref}`).doc(doc)
+}
 export {
-    firebase,
     db,
-    auth
+    files,
+    auth,
+    storage,
+    getDocumentRef
 }

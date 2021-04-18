@@ -1,12 +1,11 @@
 <template>
   <div>
-  Main
+
   </div>
 </template>
 
 <script>
-//top products(slider)
-//latest products(paginator)
+//list of all products with filtering
 export default {
 
 }

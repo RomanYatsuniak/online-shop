@@ -1,12 +1,12 @@
 <template>
   <div>
-  Main
+
   </div>
 </template>
 
 <script>
-//top products(slider)
-//latest products(paginator)
+//table with all orders
+//opportunity to see info about every order(payed status, delivered status)
 export default {
 
 }
